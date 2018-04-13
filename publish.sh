@@ -1,24 +1,18 @@
-# see: http://sangsoonam.github.io/2016/08/02/publish-gitbook-to-your-github-pages.html
-
-set -e
-
-gitbook build
+# from: http://sangsoonam.github.io/2016/08/02/publish-gitbook-to-your-github-pages.html
+# install the plugins and build the static site
 
 # checkout to the gh-pages branch
 git checkout gh-pages
 
 # pull the latest updates
-git pull origin gh-pages --rebase
+git fetch origin gh-pages
+git reset origin/gh-pages --hard
 
 # copy the static site files into the current directory.
 cp -R _book/* .
 
-# remove 'node_modules' and '_book' directory
-git clean -fx node_modules
-git clean -fx _book
-
 # add all files
-git add .
+git add en zh
 
 # commit
 git commit -a -m "Update docs"
