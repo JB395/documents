@@ -17,11 +17,12 @@ Note: Qtum Core is considered beta software. We make no warranties or guarantees
 Qtum Documentation and Usage Resources
 ---------------
 
-These are some resources that might be helpful in understanding Qtum. Note that the unofficial documents are not created by the Qtum team.
+These are some resources that might be helpful in understanding Qtum.
 
 Basic usage resources:
 
-* [Qtum-Qt Wallet Tutorial](https://docs.qtum.site/en/Qtum-Wallet-Tutorial/)
+* [User guide](https://docs.qtum.site/en/)
+* [Qtum-Qt Wallet Tutorial](https://github.com/qtumproject/documents/tree/master/en/Qtum-Wallet-Tutorial#qtum-qt-wallet-tutorial)
 * [Qtum staking tutorial](https://github.com/qtumproject/documents/tree/master/en/How-to-Stake-with-Qtum)
 * [Qtum tutorial on Raspberry Pi](https://github.com/qtumproject/documents/tree/master/en/Qtum-on-Raspberry-Pi)
 * [Running Qtum on Amazon AWS using Qtum AMI](https://github.com/qtumproject/documents/tree/master/en/Qtum-AWS)
@@ -33,17 +34,19 @@ Basic usage resources:
 
 Development resources:
 
+* [Qtum Book - A Developer's Guide To QTUM](http://book.qtum.site/en/)
+* [Qtum contract usage](https://docs.qtum.site/en/QRC20-Token-Introduce.html)
 * [Deploying a custom token to Qtum](https://blog.qtum.org/qtum-custom-token-walkthrough-467d725fa27d)
+* [QtumJS document](https://qtumproject.github.io/qtumjs-doc/)
+* [Smart contract ICO example](http://book.qtum.site/en/part3/ico.htm)
 * [Early example faucet contract](http://earlz.net/view/2017/06/30/2144/the-qtum-sparknet-faucet)
-* [Unofficial Qtum Hello World tutorial](https://steemit.com/qtum/@cryptominder/quantum-qtum-blockchain-developer-tutorial-hello-world)
-* [Qtum Book - A Developer's Guide To QTUM](https://github.com/qtumproject/qtumbook)
 
 General Info about Qtum:
 
-* [Mainnet event AMA](https://www.reddit.com/r/Qtum/comments/6zs8t0/official_qtum_ama_thread_starts_at_10pm_beijing/)
+* [CIRCLERESEARCH Qtum Primer](https://www.circle.com/marketing/pdfs/research/circle-research-qtum.pdf)
 * [Qtum's PoS vs CASPER](https://www.reddit.com/r/Qtum/comments/788oa5/qtums_pos_vs_casper_and_the_nothingatstake_problem/)
 * [Technical article explaining Qtum's PoS model in depth](http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version)
-* [Unofficial What is Qtum article](https://storeofvalue.github.io/posts/what-is-qtum-without-the-bullshit/)
+
 
 Developer's Tools
 -----------------
@@ -58,8 +61,8 @@ Developer's Tools
   * https://github.com/qtumproject/qtumportal
 * Docker images for running qtum services
   * https://github.com/qtumproject/qtum-docker
-* HTTP API that powers the block explorer and the QTUM web wallet
-  * https://github.com/qtumproject/insight-api
+* qtum.info API that powers the block explorer and the QTUM Web wallet
+  * https://github.com/qtumproject/qtuminfo-api#qtuminfo-api-documentation
 
 
 What is Qtum Core?
