@@ -92,6 +92,7 @@ Qtum Core uses a full node model, and thus requires downloading the entire block
 A browser wallet that supports the Ledger hardware wallet, offline cold wallet, and restoration from moblie wallets.
 
 Web site https://qtumwallet.org
+
 User documentation https://github.com/qtumproject/documents/tree/master/en/QTUM-WebWallet-usage
 
 ### Qtum Electrum
@@ -113,6 +114,26 @@ iOS Download: https://github.com/qtumproject/qtum-ios (open source, we are still
 This light wallet runs in your Chrome browser as a browser extension. This wallet requires a Ledger device to use.
 
 How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to-install-and-use-Qtum-with-Ledger
+
+
+### Community Resources
+
+Make sure to check out these resources as well for more information and to keep up to date with all the latest news about Qtum. At least 1 developer is always around, so if you're developing on Qtum and need help, we'd love to welcome you to our community.
+
+*	/r/Qtum on Reddit
+*	Qtum Telegram Group
+*	@QtumOfficial on Twitter
+*	Qtum on Facebook
+*	Qtum Forum
+*	Qtum.org
+
+### Qtum Smart Contract Limitations
+
+*	EVM smart contracts can not receive coins from or send coins to any address type other than pay-to-pubkeyhash (starts with Q) addresses. This is due to a limitation in the EVM
+*	Contracts are not allowed to create contracts with an initial endowment of coins. The contract must first be created, and then be sent coins in a separate transaction. Humans are also not allowed to create contracts with an initial endowment of coins.
+*	Although all of the infrastructure is present, Qtum Core does not currently parse Solidity event data. You must parse this yourself using either searchlogs or -record-log-opcodes features.
+*	It is not possible to send a contract coins without also executing the contract. This is also the case of Ethereum. This was promised in earlier discussions and technically does work, but due to lack of time for testing this feature was disabled. We hope to reenable this feature with release of the x86 virtual machine in 2020.
+*	In Qtum there can be multiple addresses used to create a proof-of-stake block. However, the EVM can only see the first output using the coinbase operation in Solidity (this address is also the one registered for the continuous staker rewards after 500 blocks).
 
 ----------
 
