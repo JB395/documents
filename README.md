@@ -147,7 +147,7 @@ Qtum uses a tool called Gitian to make reproducible builds that can be verified 
 
 ### Build on Ubuntu
 
-    This is a quick start script for compiling Qtum on  Ubuntu
+This is a quick start script for compiling Qtum on  Ubuntu
 
 
     sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils git cmake libboost-all-dev
