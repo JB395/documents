@@ -72,23 +72,32 @@ Qtum Core is our primary mainnet wallet. It implements a full node and is capabl
 
 Qtum Core currently implements the following:
 
-* Sending/Receiving Qtum
+* Sending/Receiving QTUM coins
 * Sending/Receiving QRC20 tokens on the Qtum network
 * Staking and creating blocks for the Qtum network
 * Creating and interacting with smart contracts
 * Running a full node for distributing the blockchain to other users
 * "Prune" mode, which minimizes disk usage
 * Regtest mode, which enables developers to very quickly build their own private Qtum network for Dapp testing
+* Testnet mode, using the public Qtum Testnet, with faucet available
 * Compatibility with the Bitcoin Core set of RPC commands and APIs
+* Full SegWit capability for P2KSH and bech32 addresses
 
 Alternative Wallets
 -------------------
 
 Qtum Core uses a full node model, and thus requires downloading the entire blockchain. If you do not need the entire blockchain, and do not intend on developing smart contracts, it may be more ideal to use an alternative wallet such as one of our light wallets that can be synchronized in a matter of seconds. 
 
+### Qtum Web Wallet
+
+A browser wallet that supports the Ledger hardware wallet, offline cold wallet, and restoration from moblie wallets.
+
+Web site https://qtumwallet.org
+User documentation https://github.com/qtumproject/documents/tree/master/en/QTUM-WebWallet-usage
+
 ### Qtum Electrum
 
-A light wallet that supports the Ledger hardware wallet and is based on the well known Electrum wallet software. 
+A light wallet that supports the Ledger and Treware hardware wallets and is based on the well known Electrum wallet software. 
 
 Download: https://github.com/qtumproject/qtum-electrum/releases
 
