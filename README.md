@@ -21,7 +21,7 @@ These are some resources that might be helpful in understanding Qtum. Note that 
 
 Basic usage resources:
 
-* [Official Qtum Usage Guide](https://github.com/qtumproject/qtum/wiki/Qtum-Wallet-Tutorial)
+* [Qtum-Qt Wallet Tutorial](https://docs.qtum.site/en/Qtum-Wallet-Tutorial/)
 * [Unofficial Qtum staking tutorial](https://steemit.com/qtum/@cryptominder/qtum-staking-tutorial-using-qtum-qt)
 * [Unofficial Qtum staking tutorial on Raspberry Pi](https://steemit.com/qtum/@cryptominder/qtum-staking-tutorial-using-qtumd-on-a-raspberry-pi-3)
 * [Unofficial Qtum staking tutorial on AWS EC2](https://github.com/aaronmboyd/qtum-staking-on-aws-ec2)
