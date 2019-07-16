@@ -256,9 +256,8 @@ The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/qtumproject/qtum/tags) are created
 regularly to indicate new official, stable release versions of Qtum.
 
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/qtumproject/qtum/blob/master/CONTRIBUTING.md).
 
-Developer IRC can be found on Freenode at #qtum-dev.
 
 Testing
 -------
