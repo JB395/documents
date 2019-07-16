@@ -28,8 +28,7 @@ Basic usage resources:
 * [Running Qtum on Amazon AWS using Qtum AMI](https://github.com/qtumproject/documents/tree/master/en/Qtum-AWS)
 * [Encrypting and unlocking wallet](https://github.com/qtumproject/documents/tree/master/en/Encrypt-and-Unlock-Qtum-Wallet)
 * [Testnet guide](https://github.com/qtumproject/documents/blob/master/en/Testnet-User-Guide.md)
-* [Block explorer](https://qtum.info)
-* [Old explorer](https://explorer.qtum.org)
+* [Block explorer](https://qtum.info), [Older explorer](https://explorer.qtum.org)
 
 
 Development resources:
@@ -81,7 +80,7 @@ Qtum Core currently implements the following:
 * Regtest mode, which enables developers to very quickly build their own private Qtum network for Dapp testing
 * Testnet mode, using the public Qtum Testnet, with faucet available
 * Compatibility with the Bitcoin Core set of RPC commands and APIs
-* Full SegWit capability for P2KSH and bech32 addresses
+* Full SegWit capability with p2sh-segwit (legacy) and bech32 (native) addresses
 
 Alternative Wallets
 -------------------
