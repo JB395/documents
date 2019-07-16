@@ -120,12 +120,12 @@ How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to
 
 Make sure to check out these resources as well for more information and to keep up to date with all the latest news about Qtum. At least 1 developer is always around, so if you're developing on Qtum and need help, we'd love to welcome you to our community.
 
-*	/r/Qtum on Reddit
-*	Qtum Telegram Group
-*	@QtumOfficial on Twitter
-*	Qtum on Facebook
-*	Qtum Forum
-*	Qtum.org
+*	/r/Qtum on Reddit 
+*	Qtum Telegram Group https://t.me@qtumofficial 
+*	@QtumOfficial on Twitter https://twitter.com/qtumofficial
+*	Qtum on Facebook https://www.facebook.com/QtumOfficial/
+*	Qtum Forum https://forum.qtum.org/
+*	Qtum.org https://qtum.org
 
 ### Qtum Smart Contract Limitations
 
