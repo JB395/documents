@@ -114,12 +114,13 @@ This light wallet runs in your Chrome browser as a browser extension. This walle
 
 How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to-install-and-use-Qtum-with-Ledger
 
+
+Building Qtum Core
+
 ### Validate and Reproduce Binaries
 
 Qtum uses a tool called Gitian to make reproducible builds that can be verified by anyone. Instructions on setting up a Gitian VM and building Qtum are provided in [Gitan Building](https://github.com/qtumproject/qtum/blob/master/doc/gitian-building.md)
 
-
-Building Qtum Core
 ----------
 
 ### Build on Ubuntu
